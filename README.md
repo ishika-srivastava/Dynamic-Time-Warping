@@ -19,10 +19,10 @@ Pruned DTW, Sparse DTW and Fast DTW
 It gives a non-linear (elastic) alignment between two-time series. 
 This produces a more intuitive similarity measure, allowing similar shapes to match even if they are out of phase in the time axis.
 
-### REPRESENTATION OF DTW
+- ### REPRESENTATION OF DTW
 The basis of DTW is found in the computations of the distance/confusion matrix between two-time series.
 
-### WARPING FUNCTION
+- ### WARPING FUNCTION
 To find the best alignment between time series A and B, the path through the grid minimises the total distance between them. It is given as:
 #### P = p1,…,ps,…,pk     
 #### ps = (is, js)
